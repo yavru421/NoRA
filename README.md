@@ -1,3 +1,6 @@
+<img width="2816" height="1536" alt="output" src="https://github.com/user-attachments/assets/20df96ba-eeb5-43e0-b353-b0702557e4d4" />
+
+
 🛑 NoRA 🛑
 (No Resizing Allowed)
 The most banging global AHKv2 Smart Macro Recorder on GitHub.
