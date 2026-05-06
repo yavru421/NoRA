@@ -6,7 +6,7 @@
 The most banging global AHKv2 Smart Macro Recorder on GitHub.
 
 --------------------------------------------------------------------------------
-"im self taught and i literally discover shit like ahk2 and use it to automate whatever i feel like. i spent days digging through github and reddit trying to find a solid macro recorder for autohotkey v2, and honestly, almost all the shit out there is completely broken. so i built my own from scratch."
+"im self taught and i literally discover stuff like ahk2 and use it to automate whatever i feel like. i spent days digging through github and reddit trying to find a solid macro recorder for autohotkey v2, and honestly, almost all the stuff out there is completely broken. so i built my own from scratch."
 💀 Why the other recorders out there suck
 If you look at the most popular v2 recorders out there (like the forks by 'raeleus' or 'ArtyMcLabin'), they are basically frankenstein code patched together from old AHK v1 scripts. They have massive bugs that people constantly complain about on Reddit and GitHub:
 
@@ -48,7 +48,7 @@ Intelligent WinWaitActive UI sensing
 🚨 THE GOLDEN RULE: NO RESIZING ALLOWED 🚨
 The name says it all. This script makes your macros immune to windows being moved around or covered by other apps. When you replay it, it uses WinWaitActive to intelligently sense if the program is loaded, brings it to the front, and clicks the exact right spot relative to the top-left corner of the window.
 BUT... you absolutely CANNOT resize the window after you record.
-Modern apps are responsive, so if you resize the window, the internal layout shifts. The script will faithfully click the exact relative coordinates you recorded, but because you resized the window, it'll probably click the wrong shit (or end up typing in a completely different text box).
+Modern apps are responsive, so if you resize the window, the internal layout shifts. The script will faithfully click the exact relative coordinates you recorded, but because you resized the window, it'll probably click the wrong stuff (or end up typing in a completely different text box).
 Keep the window the exact same size, and it works flawlessly.
 
 --------------------------------------------------------------------------------
@@ -63,4 +63,4 @@ Keep the window the exact same size, and it works flawlessly.
     Press F1 to replay the smart macro. It will instantly activate the correct window and inject your text instantly instead of typing it letter by letter.
     Press F6 for the panic button. Hit it to kill the script instantly if something goes wrong.
 
-Enjoy. And remember, no fucking resizing allowed.
+Enjoy. And remember, no resizing allowed.
